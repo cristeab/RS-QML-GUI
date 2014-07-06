@@ -10,7 +10,7 @@ ApplicationWindow {
     property color lightBlue:"#5eb9e5"
     property color darkBlue: "#2f5d73"
     property color friendsBlue: "#007f7f"
-    property color bioliogyRed: "#7f0000"
+    property color biologyRed: "#7f0000"
     property color workGrey: "#7f3300"
     property color unGreen: "#007f00"
 
