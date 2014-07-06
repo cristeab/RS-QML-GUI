@@ -3,7 +3,7 @@ RS-QML-GUI
 
 Retroshare GUI implementation in QML.
 
-![alt tag]()
+![alt tag](screenshot.png)
 
 The GUI has been created in Qt 5.3.1.
 
