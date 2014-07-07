@@ -1,4 +1,5 @@
-import QtQuick 2.0
+import QtQuick 2.3
+import QtGraphicalEffects 1.0
 
 Rectangle {
     property bool active: false
@@ -6,7 +7,7 @@ Rectangle {
 
     height: width
     color: main_window.lightBlue
-    radius: 0.1*width
+    radius: 0.5*width
     border.width: active?0.02*width:0
     border.color: "white"
     clip: true
@@ -17,9 +18,23 @@ Rectangle {
         height: width
         color: "transparent"
         Image {
-            id: avatar_image
+            id: avatar_image            
+            visible: false
             anchors.fill: parent
-            fillMode: Image.Stretch
+            fillMode: Image.PreserveAspectCrop
+            mipmap: true // better downscaling quality, but may affect performance
+        }
+        Image {
+            id: mask
+            source: "img/circular-mask-for-avatar.svg"
+            sourceSize: Qt.size(parent.width, parent.height)
+            visible: false
+        }
+
+        OpacityMask {
+            anchors.fill: avatar_image
+            source: avatar_image
+            maskSource: mask
         }
     }
 }

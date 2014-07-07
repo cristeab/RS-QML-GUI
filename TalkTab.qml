@@ -1,4 +1,4 @@
-import QtQuick 2.2
+import QtQuick 2.3
 import QtQuick.Controls 1.2
 
 Item {
@@ -91,7 +91,7 @@ Item {
             anchors.rightMargin:0.05*parent.height
             anchors.bottom: parent.bottom
             anchors.bottomMargin:0.05*parent.height
-            source: "img/icon-search.svg"
+            source: "img/icon-talk.svg"
             fillMode: Image.PreserveAspectFit
             smooth: true
             height: parent.height/4.5

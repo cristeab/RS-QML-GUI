@@ -1,6 +1,7 @@
-import QtQuick 2.2
+import QtQuick 2.3
 import QtQuick.Controls 1.2
 import QtQuick.Controls.Styles 1.2
+import QtGraphicalEffects 1.0
 
 Item {
     id: activities_frame
@@ -78,6 +79,11 @@ Item {
               text: tabText(styleData.index)
               color: styleData.selected?"white":main_window.lightBlue
               font.pixelSize:0.15*parent.width
+          }
+          ColorOverlay {
+              anchors.fill: tab_image
+              source: tab_image
+              color: styleData.selected?"#FFFFFF":"#5eb9e5"
           }
         }
         frame: Rectangle {

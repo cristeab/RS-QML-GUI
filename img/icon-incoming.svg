@@ -9,15 +9,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="25.064449"
-   height="30.17774"
-   id="svg6120"
+   width="25"
+   height="30"
+   id="svg4579"
    version="1.1"
    inkscape:version="0.48+devel_64bit r13443"
-   viewBox="0 0 25.064449 30.177741"
+   viewBox="0 0 25 30"
    sodipodi:docname="icon-incoming.svg">
   <defs
-     id="defs6122" />
+     id="defs4581" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="67.532228"
-     inkscape:cy="-593.48256"
+     inkscape:cx="-943.92857"
+     inkscape:cy="220.71428"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -41,7 +41,7 @@
      inkscape:window-y="-4"
      inkscape:window-maximized="1" />
   <metadata
-     id="metadata6125">
+     id="metadata4584">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -56,12 +56,11 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-307.46778,91.298117)">
+     transform="translate(-873.2143,-723.07648)">
     <path
-       sodipodi:nodetypes="cccccccccccccc"
        inkscape:connector-curvature="0"
-       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 314.83886,-91.298117 -7.37109,7.3711 0,22.80664 25.06445,0 0,-30.17774 z m 12.8086,25.95313 -5.09961,-5.09961 5.09961,-5.09766 z m -7.35547,0 -5.09766,-5.09961 5.09766,-5.09766 z"
-       id="path4576" />
+       id="rect4520-1"
+       d="m 880.40179,723.07648 -7.1875,7.21875 0,22.78125 25,0 0,-30 -17.8125,0 z m 6.65625,16 0,10 -6.1875,-5 6.1875,-5 z m 7.15625,0 0,10 -6.1875,-5 6.1875,-5 z"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:20;marker:none;enable-background:accumulate" />
   </g>
 </svg>
