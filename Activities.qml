@@ -60,7 +60,7 @@ Item {
             width: parent.width/4
             height: width
             smooth: true
-            source: "img/TabIcon"+(styleData.selected?"Sel":"")+styleData.index+".svg"
+            source: "img/TabIcon"+styleData.index+".svg"
           }
           Text {
               function tabText(index) {

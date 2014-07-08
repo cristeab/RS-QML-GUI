@@ -91,7 +91,7 @@ Item {
             anchors.rightMargin:0.05*parent.height
             anchors.bottom: parent.bottom
             anchors.bottomMargin:0.05*parent.height
-            source: "img/icon-talk.svg"
+            source: "img/TabIcon0.svg"
             fillMode: Image.PreserveAspectFit
             smooth: true
             height: parent.height/4.5
